@@ -24,36 +24,105 @@
     <div class="container"> 
         <ul class="nav nav-pills">
             <li class="active">
-                <a  href="#me" data-toggle="tab">About myself</a>
+                <a href="#me" data-toggle="pill">About myself</a>
             </li>
             <li>
-                <a href="#projects" data-toggle="tab">Projects</a>
-            <li>
-                <a href="#work" data-toggle="tab">Work experience</a>
+                <a href="#projects" data-toggle="pill">Projects</a>
             </li>
             <li>
-                <a href="#volunteer" data-toggle="tab">Volunteer experience</a>
+                <a href="#work" data-toggle="pill">Work experience</a>
             </li>
             <li>
-                <a href="#contact" data-toggle="tab">Contact</a>
+                <a href="#volunteer" data-toggle="pill">Volunteer experience</a>
+            </li>
+            <li>
+                <a href="#contact" data-toggle="pill">Contact</a>
             </li>
         </ul>
             <div class="tab-content clearfix">
-                <div class="tab-pane active" id="me">
+                <div class="tab-pane fade in active" id="me">
                     <h4>I'm a 22-year-old Computer Science student from Espoo, Finland.</h4>
                 </div>
-                <div class="tab-pane" id="projects">
-                    <h4>i dun stuff for money</h4>
+                <div class="tab-pane fade" id="projects">
+                    <h4>Various projects I've done</h4>
+                    <h3><a href="https://github.com/muushi/ambitube">AMBITUBE</a> - Ambilight meets YouTube (2017)</h3>
+                    <h4><a href="https://www.niksula.hut.fi/~sivaron1/ambitube/">live demo</a></h4>
+                    <p></p>
+
+                    <h3><a href="https://github.com/muushi/poli16">POLIN APPRO</a> - Event website</h3>
+                    <h4><a href="http://muushi.github.io/poli16/">live demo</a></h4>
+                    <p></p>
+
+                    <h3>Generic designs/mockups</h3>
+                    <h4>silenc.io - a social media app mockup as coursework</h4>
+                    <p></p>
+                    <h4>Piikki - a tracking system for drink consumption</h4>
+                    <p></p>
+
                 </div>
-                <div class="tab-pane" id="work">
-                    <h4>i dun stuff for money</h4>
+                <div class="tab-pane fade" id="work">
+                    <h4>lorem ipsum</h4>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>&nbsp;</th>
+            <th>Company</th>
+            <th>Position</th>
+            <th>Duration</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr data-toggle="collapse" data-target="#synsam">
+            <td></td>
+            <td>Synsam Finland Oy</td>
+            <td>Office Cleaner</td>
+            <td>April 2012 - Present</td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <div class="collapse" id="synsam">
+                    <p>lorem ipsum</p>
                 </div>
-                <div class="tab-pane" id="volunteer">
-                    <h4>i dun stuff for no money</h4>
+            </td>
+        </tr>
+        <tr data-toggle="collapse" data-target="#mil">
+            <td></td>
+            <td>Finnish Defence Forces</td>
+            <td>Platoon Second-in-Command & Instructor</td>
+            <td>July 2014 - August 2014</td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <div class="collapse" id="mil">
+                    <p>dolor sit</p>
+                </div>
+            </td>
+        </tr>
+        <tr data-toggle="collapse" data-target="#eur">
+            <td></td>
+            <td>European Wrapping Ltd</td>
+            <td>Salesperson</td>
+            <td>May 2012 - Jun 2013</td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <div class="collapse" id="eur">
+                    <p>amet</p>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+
+
+</table>
+                </div>
+                <div class="tab-pane fade" id="volunteer">
+                    <h4>lorem ipsum</h4>
 
 <!-- this section is ugly, yes. more legible than with massive tabfuckery tho -->
 
-<table class="table table-hover" style="border-collapse:collapse;">
+<table class="table table-hover">
     <thead>
         <tr>
             <th>&nbsp;</th>
@@ -69,13 +138,13 @@
         </tr>
         <tr>
             <td colspan="3" class="hiddenRow">
-                <div class="accordian-body collapse" id="demo1"> 
+                <div class="accordion-body collapse" id="demo1"> 
                     <table class="table table">
                         <thead>
                             <p><a href="http://www.tietokilta.fi">Tietokilta ry</a> is the student association for computer science students within Aalto University. It is part of the Student Union of Aalto University (AYY) and has approximately 800 student members, most of which study computer science.
                             </p>
                             <tr>
-                                <th>Term</th>
+                                <th></th>
                                 <th>Position</th>
                                 <th>Description</th>
                             </tr>
@@ -103,13 +172,13 @@
         </tr>
 <!--tietokilta ends, remburssi -->
         <tr data-toggle="collapse" data-target="#demo2" class="accordion-toggle">
-            <td><span class="glyphicon glyphicon-eur"></span></td>
+            <td></td>
             <td>Remburssi - Kansainvälisen liiketoiminnan yhdistys ry</td>
             <td>2015 - 2016</td>
         </tr>
         <tr>
             <td colspan="3" class="hiddenRow">
-                <div class="accordian-body collapse" id="demo2"> 
+                <div class="accordion-body collapse" id="demo2"> 
                     <table class="table table">
                         <thead>
                             <p><a href="http://www.remburssi.org/">Remburssi</a> is an association for students in Aalto University who are interested in international business.
@@ -138,13 +207,13 @@
         </tr>
 <!-- end remburssi, misc -->
         <tr data-toggle="collapse" data-target="#demo3" class="accordion-toggle">
-            <td><span class="glyphicon glyphicon-star"></span></td>
+            <td></td>
             <td>Miscellaneous other positions</td>
             <td>2015 - present</td>
         </tr>
         <tr>
             <td colspan="3" class="hiddenRow">
-                <div class="accordian-body collapse" id="demo3"> 
+                <div class="accordion-body collapse" id="demo3"> 
                     <table class="table table">
                         <thead>
                             <tr>
@@ -172,8 +241,11 @@
 
 
                 </div>
-          <div class="tab-pane" id="contact">
-          <h4>hit me up yo</h4>
+          <div class="tab-pane fade" id="contact">
+          <h4>Email: niklas [a] nmnstmn.com</h4>
+          <h4><a href="https://telegram.org/">Telegram:</a> @muushi</h4>
+          <h4><a href="https://www.linkedin.com/in/niklas-sivaro-494822b1/">LinkedIn</a></h4>
+          <h4><a href="https://github.com/muushi">GitHub</a></h4>
                 </div>
             </div>
   </div>
