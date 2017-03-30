@@ -40,7 +40,7 @@
     display: none;
     width: 100%;
     float: left;
-    padding: 5px 15px;
+    padding: 3% 3% 3% 3%;
     box-sizing: border-box;
     color: black;
     background-color: white;
@@ -64,7 +64,7 @@
         display: inline-block;
     }
     .tabs {
-    max-width: 750px;
+    max-width: 90%;
     margin: 50px auto;
     }
 }
@@ -78,16 +78,19 @@ a {
     font-weight: bold;
 }
 
+h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 .face {
   width: 300px;
   height: 300px;
-  background: url("fa§ce.jpg") center no-repeat;
+  background: url("fac§e.jpg") center no-repeat;
   background-size: 300px 300px;
   -webkit-clip-path: circle(150px at center);
   clip-path: circle(150px at center);
   margin: 2% auto;
-  /* OLD VALUE example: circle(245px, 140px, 50px); */
-  /* Yep, even the new clip-path has deprecated stuff. */
 }
 
 .tiklogo {
