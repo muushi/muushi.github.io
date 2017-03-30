@@ -24,8 +24,11 @@
   line-height: 2;
   border-bottom: 10px solid rgba(0,0,0,0.4);
 }
-.tabs label span {
+.native {
   display: none;
+}
+.mobile {
+  display: inline-block;
 }
 .tabs label:hover {
   color: rgba(0,0,0,0.7);
@@ -56,8 +59,11 @@
 }
 
 @media (min-width: 768px) {
-  .tabs label span {
+  .native {
     display: inline-block;
+  }
+  .mobile {
+    display: none;
   }
   .tabs {
     max-width: 90%;
