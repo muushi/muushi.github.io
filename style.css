@@ -41,13 +41,13 @@
   padding: 3% 3% 3% 3%;
   box-sizing: border-box;
   color: black;
-  background-color: white;
+  background-color: rgb(230,235,224);
 }
 
 .tabs [id^="tab"]:checked + label {
   background: rgba(0,0,0,0);
-  border-bottom: 10px solid white;
-  color: white;
+  border-bottom: 10px solid rgb(230,235,224);
+  color: rgb(230,235,224);
 }
 
 #tab1:checked ~ #tab-content1,
@@ -88,6 +88,10 @@
   background-size: 25px 25px;
 }
 
+tr {
+  background-color: rgb(230,235,224);
+}
+
 h1 {
   text-transform: uppercase;
   font-weight: bold;
@@ -103,9 +107,9 @@ a {
 }
 
 .jumbotron {
-  background-color: rgba(0,0,0,0);
+  background-color: rgb(92,164,169);
 }
 
 body {
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgb(92,164,169);
 }
