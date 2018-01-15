@@ -16,13 +16,13 @@
   display: block;
   float: left;
   width: 20%;
-  color: rgba(92,164,169,0.6);
+  color: rgba(69,112,128,0.6);
   font-size: 20px;
   text-transform: uppercase;
   font-weight: normal;
   text-align: center;
   line-height: 2;
-  border-bottom: 10px solid rgba(92,164,169,0.6);
+  border-bottom: 10px solid rgba(69,112,128,0.6);
 }
 .native {
   display: none;
@@ -31,8 +31,8 @@
   display: inline-block;
 }
 .tabs label:hover {
-  color: rgba(0,0,0,0.7);
-  border-bottom: 10px solid rgba(92,164,169,1);
+  color: rgba(69,112,128,1);
+  border-bottom: 10px solid rgba(69,112,128,1);
 }
 .tab-content {
   display: none;
@@ -41,13 +41,13 @@
   padding: 3% 3% 3% 3%;
   box-sizing: border-box;
   color: black;
-  background-color: rgb(230,235,224);
+  background-color: rgb(168,200,201);
 }
 
 .tabs [id^="tab"]:checked + label {
   background: rgba(0,0,0,0);
-  border-bottom: 10px solid rgb(230,235,224);
-  color: rgb(230,235,224);
+  border-bottom: 10px solid rgb(168,200,201);
+  color: rgba(69,112,128,0.2);
 }
 
 #tab1:checked ~ #tab-content1,
@@ -89,22 +89,22 @@
 }
 
 tr {
-  background-color: rgb(230,235,224);
+  background-color: rgb(168,200,201);
 }
 
 h2 {
   font-size: 8vw;
   text-transform: uppercase;
-  color: rgba(92,164,169,1);
+  color: rgba(69,112,128,1);
   font-weight: bold;
 }
 
 .title {
-  color: rgba(29,113,140,1);
+  color: rgba(69,112,128,1);
 }
 
 a {
-  color: rgba(92,164,169,1);
+  color: rgba(69,112,128,1);
   font-weight: bold;
 }
 
@@ -113,9 +113,9 @@ a {
 }
 
 .jumbotron {
-  background-color: rgb(155,193,188);
+  background-color: rgb(191,222,220);
 }
 
 body {
-  background-color: rgb(155,193,188);
+  background-color: rgb(191,222,220);
 }
