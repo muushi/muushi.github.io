@@ -31,8 +31,8 @@
   display: inline-block;
 }
 .tabs label:hover {
-  color: rgba(69,112,128,1);
-  border-bottom: 10px solid rgba(69,112,128,1);
+  color: rgb(69,112,128);
+  border-bottom: 10px solid rgb(69,112,128);
 }
 .tab-content {
   display: none;
@@ -45,7 +45,7 @@
 }
 
 .tabs [id^="tab"]:checked + label {
-  background: rgba(0,0,0,0);
+  background: none;
   border-bottom: 10px solid rgb(168,200,201);
   color: rgba(69,112,128,0.2);
 }
@@ -95,16 +95,16 @@ tr {
 h2 {
   font-size: 8vw;
   text-transform: uppercase;
-  color: rgba(69,112,128,1);
+  color: rgb(69,112,128);
   font-weight: bold;
 }
 
 .title {
-  color: rgba(69,112,128,1);
+  color: rgb(69,112,128);
 }
 
 a {
-  color: rgba(69,112,128,1);
+  color: rgb(69,112,128);
   font-weight: bold;
 }
 
