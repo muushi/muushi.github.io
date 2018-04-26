@@ -1,22 +1,77 @@
+<!doctype html>
 <html>
 <head>
-<link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css"/>
-</head>
-<style>
- body{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+    <meta charset="UTF-8">
+    <meta name="description" content="CS student at Aalto University.">
+    <meta name="author" content="Niklas Sivaro">
+    <meta name="viewport" content="width=device-width, intial-scale=1">
 
-html, body {
-    height: 100%;
-}
-</style>
-<body class="bg-moon-gray">
-<div class="helvetica f1">
-<a class="black"href="http://oispa.sill.is/cs-e5600">oispa.sill.is/cs-e5600</a>
-</div>
+    <title>Niklas Sivaro</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css"/>
+    <style>
+        html {
+            background-color: #e9dccd;
+        }
+        .face {
+            width: 150px;
+            height: 150px;
+            background: url("face.jpg") center no-repeat;
+            background-size: 150px 150px;
+            -webkit-clip-path: circle(75px at center);
+            clip-path: circle(75px at center);
+            margin: 2% auto;
+            margin-top: 7%;
+        }
+        .dark {
+            color: #36384c;
+        }
+        a {
+            color: #613a43;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body class="calisto">
+    <header>
+        <div class="face">
+            &nbsp;
+        </div>
+    </header>
+
+    <div class="center w-80 tc">
+        <h1 class="helvetica dark ttu f1 lh-solid">Niklas Sivaro</h1>
+        <p class="dark f4 lh-copy">hello!</p>
+    </div>
+
+    <div class="dark pt3 w-80 mw8 center f6">
+        <p class="f6 lh-copy measure center">
+            I'm a 24-year old Computer Science student in Aalto University.
+            My interests range from web and front-end development to UI design and service design and engineering,
+            in which I hope to pursue my Master's degree after finishing my Bachelor's.
+            I speak fluent English, and my mother tongues are Finnish and Swedish. 
+            I have a relatively long history in the student life in Otaniemi - I was a member of the board of the
+            <a href="http://tietokilta.fi"> Computer Science Guild</a> at Aalto University for three years, acting as
+            board chairperson for the year 2017.
+            <br><br>
+            From the volunteer positions of trust I've held during my study years I've learned a lot about event planning
+            and production, creative problem solving and leadership - especially in terms of motivating and inspiring
+            people in their field of responsibility. I consider myself as a "can-do"-person with a positive attitude,
+            and am capable of adapting to different environments quickly.
+            <br><br>
+            I am currently working at <a href="https://www.columbiaroad.com/">Columbia Road</a> as a software developer.
+            On my free time, I (among other various activities) am volunteering as a member of the Museum Committee
+            of the Student Union of Aalto University, which operates the <a href="https://www.polyteekkarimuseo.fi/">Polyteekkari Museum</a>.
+        </p>
+
+        <div class="center tc">
+            <h4>Email: niklas [a] sill.is</h4>
+            <h4><a href="https://telegram.org/">Telegram:</a> @muushi</h4>
+            <h4><a href="https://www.linkedin.com/in/niklas-sivaro-494822b1/">LinkedIn</a></h4>
+            <h4><a href="https://github.com/muushi">GitHub</a></h4>
+        </div>
+    </div>
 </body>
 </html>
