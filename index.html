@@ -1,57 +1,73 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content=":)">
-    <meta name="author" content="Niklas Sivaro">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content=":)">
+        <meta name="author" content="Niklas Sivaro">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Niklas Sivaro</title>
+        <title>Niklas Sivaro</title>
 
-    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css"/>
-    <style>
-        html {
-            background-color: #e9dccd;
-        }
-        .face {
-            width: 150px;
-            height: 150px;
-            background: url("face.jpeg") center no-repeat;
-            background-size: 150px 150px;
-            -webkit-clip-path: circle(75px at center);
-            clip-path: circle(75px at center);
-            margin: auto;
-        }
-        a {
-            color: #613a43;
-            text-decoration: none;
-            font-weight: bold;
-        }
-    </style>
-</head>
+        <style>
+            html {
+                background-color: #e9dccd;
+                color: #36384c;
+            }
+            body {
+                margin: 2rem auto;
+            }
+            div {
+                margin-left: auto;
+                margin-right: auto;
+                width: 80%;
+                padding-top: 1px;
+            }
+            .face {
+                width: 150px;
+                height: 150px;
+                background: url("face.jpeg") center no-repeat;
+                background-size: 150px 150px;
+                -webkit-clip-path: circle(75px at center);
+                clip-path: circle(75px at center);
+            }
+            h1, h2, p {
+                text-align: center;
+                line-height: 1;
+            }
+            h1 {
+                font-family: sans-serif;
+                text-transform: uppercase;
+                font-size: 3rem;
+            }
+            footer {
+                padding-top: 1rem;
+                font-weight: bold;
+            }
+            a {
+                color: #613a43;
+                text-decoration: none;
+            }
+        </style>
+    </head>
 
-<body class="mt4 mb4" style="color:#36384c">
-    <header>
-        <div class="face">
-            &nbsp;
+    <body>
+        <header>
+            <div class="face">
+                &nbsp;
+            </div>
+            <div>
+                <h1>Niklas Sivaro</h1>
+            </div>
+        </header>
+        <div>
+            <h2>hello!</h2>
         </div>
-        <div class="center w-80 tc">
-            <h1 class="helvetica ttu f1 lh-solid">Niklas Sivaro</h1>
-        </div>
-    </header>
-
-    <div class="pt3 w-80 mw8 center f6">
-        <p class="f3 lh-copy measure center tc">
-            hello!
-        </p>
-    </div>
-
-    <footer class="center tc pt2">
-        <p class="b">🧑‍💻 <a href="https://www.columbiaroad.com/">Columbia Road</a></p>
-        <p class="b">👨‍🎓 Aalto University</p>
-        <p class="b">✉️ niklas [a] sivaro.fi</p>
-        <p>💻 <a href="https://www.linkedin.com/in/nsivaro/">LinkedIn</a></p>
-        <p>🤖 <a href="https://github.com/muushi">GitHub</a></p>
-    </footer>
-</body>
+        <footer>
+            <p>🧑‍💻 <a href="https://www.columbiaroad.com/">Columbia Road</a></p>
+            <p>👨‍🎓 Aalto University</p>
+            <p>✉️ niklas [a] sivaro.fi</p>
+            <p>💻 <a href="https://www.linkedin.com/in/nsivaro/">LinkedIn</a></p>
+            <p>🤖 <a href="https://github.com/muushi">GitHub</a></p>
+        </footer>
+    </body>
 </html>
